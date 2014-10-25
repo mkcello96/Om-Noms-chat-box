@@ -1,0 +1,72 @@
+body {
+	background-color: black;
+	font-family: monospace;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	color: #00FF00;
+}
+
+#page-content {
+	position: relative;
+	width: 75%;
+	height: 65%;
+	margin: auto;
+}
+
+p .name {
+	color: blue;
+	font-weight: bold;
+}
+
+.setstuff {
+	text-align: right;
+}
+
+.color {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 2px;
+	cursor: pointer;
+}
+
+.chosen {
+	border: 2px solid white;
+}
+
+@media only screen 
+and (max-device-width: 480px) {
+	#page-content {
+		width: 100%;
+	}
+}
+
+#messenger {
+	height: 100%;
+	margin: auto;
+	overflow-y: scroll;
+	color: black;
+	border: 1px solid white;
+	background-color: #00FF00;
+}
+
+#input {
+	background-color: black;
+	color: #00FF00;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: -50px;
+}
+
+#typing {
+	position: absolute;
+	bottom: -65px;
+}
+
+.hide {
+	display: none;
+}
